@@ -6,6 +6,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=6565
 // Strings (cadenas de texto)
 
 // Concatenación
+console.log('###### Seccion de Strings #######')
 
 let myName = "Brais"
 let greeting = "Hola, " + myName + "!"
@@ -33,6 +34,7 @@ console.log(greeting.includes("Brais"))
 console.log(greeting.includes("MoureDev"))
 console.log(greeting.slice(0, 10)) // Sección
 console.log(greeting.replace("Brais", "MoureDev")) // Reemplazo
+
 
 // Template literals (plantillas literales)
 
