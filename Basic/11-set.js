@@ -4,6 +4,14 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=9952
 */
 
 // Set
+/**
+ * Los Set, no manejan inidices, no tienen orden, no permiten elementos duplicados
+ * Los elementos pueden ser de cualquier tipo
+ * No tienen propiedades, pero si métodos
+ * no son iterables, no se pueden recorrer con bucles
+ * No se pueden acceder a sus elementos mediante un índice 
+ *
+ */
 
 // Declaración
 
@@ -35,7 +43,7 @@ console.log(mySet.delete(4))
 console.log(mySet)
 
 // has
-
+console.log('***** set has method')
 console.log(mySet.has("Moure"))
 console.log(mySet.has("Brais"))
 

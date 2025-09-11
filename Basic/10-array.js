@@ -71,6 +71,7 @@ console.log(myArray)
 console.log(myArray.shift())
 console.log(myArray)
 
+console.log('>>> unshift <<<')
 myArray.unshift("Brais", "mouredev")
 console.log(myArray)
 
