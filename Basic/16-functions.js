@@ -88,11 +88,12 @@ extern()
 
 // Funciones de orden superior
 
-function applyFunc(func, param) {
+function applyFunc(func, param, func2, param2, param3) {
     func(param)
+    func2(param2, param3)
 }
 
-applyFunc(myFunc4, "función de orden superior")
+applyFunc(myFunc4, "función de orden superior", defaultSum, 10, 50)
 
 // forEach
 
