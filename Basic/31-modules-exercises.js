@@ -3,6 +3,11 @@ Clase 45 - Ejercicios: Módulos
 Vídeo: https://youtu.be/1glVfFxj8a4?t=22720
 */
 
+/**
+ * 
+ * Recordar que para los export se debe de agregar el package.json type:modules 
+ */
+
 // 1. Exporta una función
 
 export function areaSquare(sideA, sideB){
